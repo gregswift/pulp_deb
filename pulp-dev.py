@@ -36,10 +36,10 @@ DIR_PLUGINS = '/usr/lib/pulp/plugins'
 
 LINKS = (
     # Debian .deb Support Plugins
-    ('pulp_deb_plugins/pulp_deb/plugins/types/deb.json', DIR_PLUGINS + '/types/deb.json'),
+    ('pulp_deb/plugins/types/deb.json', DIR_PLUGINS + '/types/deb.json'),
 
     # Debian .deb Support Admin Extensions
-    ('pulp_deb_extensions_admin/etc/pulp/admin/conf.d/deb.conf', '/etc/pulp/admin/conf.d/deb.conf')
+    ('pulp_deb/extensions/admin/etc/pulp/admin/conf.d/deb.conf', '/etc/pulp/admin/conf.d/deb.conf')
 )
 
 def parse_cmdline():
