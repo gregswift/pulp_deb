@@ -36,7 +36,7 @@ DIR_PLUGINS = '/usr/lib/pulp/plugins'
 
 LINKS = (
     # Debian .deb Support Plugins
-    ('pulp_deb/plugins/types/deb.json', DIR_PLUGINS + '/types/deb.json'),
+    ('pup_deb/plugins/types/deb.json', DIR_PLUGINS + '/types/deb.json'),
 
     # Debian .deb Support Admin Extensions
     ('pulp_deb/extensions/admin/etc/pulp/admin/conf.d/deb.conf', '/etc/pulp/admin/conf.d/deb.conf')
